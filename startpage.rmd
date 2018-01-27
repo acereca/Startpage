@@ -1,9 +1,9 @@
 ---
 title: "Web Start"
+smart: 'false'
 output: 
     flexdashboard::flex_dashboard:
         theme: yeti
-        smart: 'false'
 ---
 
 <style type="text/css">
