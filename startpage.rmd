@@ -4,6 +4,8 @@ output:
     flexdashboard::flex_dashboard:
         theme: yeti
         smart: 'false'
+        navbar:
+            - { title: "PEP5", href: "./WiSe1718/Ex5.html", align: left }
 ---
 
 <style type="text/css">
@@ -33,6 +35,7 @@ Row
   - [FP](https://github.com/acereca/FP)
   - [.files](https://github.com/acereca/dotfiles)
   - [ubib](https://github.com/acereca/ubib)
+  - [Startpage](https://github.com/acereca/Startpage)
 - [Luke Smith](https://github.com/lukesmithxyz)
 - [Daniel Barley](https://github.com/danielbarley)
 
@@ -64,10 +67,4 @@ Row
 ### Experimentalphysik V 
 
 - [Homepage](https://uebungen.physik.uni-heidelberg.de/vorlesung/20172/pep5)
-
-WiSe 17/18 
-================================================================
-
-```{r child="WiSe1718/Ex5.rmd"}
-```
 
