@@ -366,12 +366,6 @@ unter der N&auml;herung $\omega = vq$ (Debye)
 
 # Supraleitung
 
-## Definition
-
-## Supraleiter 1. und 2. Art
-
-## Ph&auml;nomenologische Beschreibung
-
 # Halbleiter
 
 # Dielektrische und optische Eigenschaften von Festk&ouml;rpern
