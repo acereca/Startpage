@@ -1,20 +1,4 @@
----
-title: "Experimentalphysik V"
-header-includes:
-    - \usepackage{mathtools}
-    - \usepackage{siunitx}
-    - \usepackage{physics}
-    - \usepackage[utf8]{inputenc}
-    - \usepackage[ngerman]{babel}
-output:
-    html_document:
-        keep_md: yes
-        smart: false
-        toc: true
-        toc_float: true
-        number_sections: true
-        theme: yeti
----
+# Experimentalphysik V
  - [Inhaltsverzeichnis](https://uebungen.physik.uni-heidelberg.de/vorlesung/20172/pep5/toc)
 
 ----------------------------------------------------------------
@@ -365,6 +349,35 @@ unter der N&auml;herung $\omega = vq$ (Debye)
 ![](./pepvimg/band_effmass.png)
 
 # Supraleitung
+
+## Definition
+![](./pepvimg/supr_def.png)
+
+- perfekter Diamagnet:
+\begin{align}
+    B_i =& \mu_0(H^e+M) = 0 \rightarrow M=-H\\
+    \chi_{SI}=&-1, \chi_{CGS}=-\frac{1}{4\pi}
+\end{align}
+
+## Supraleiter 1. und 2. Art
+### 1. Art
+- z.B.: Pb, Hg, Al, In
+
+![](./pepvimg/supr_1bvb.png)
+
+- $B_C(T) = B_0(0)(1-\frac{T^2}{T^2_C})$
+
+![](./pepvimg/supr_1bvt.png)
+
+### 2. Art
+- z.B.: Legierungen, Hoch-$T_C$-SL, ...
+
+![](./pepvimg/supr_2bvb.png)
+
+- B-Feld dringt teilw. in SL ein
+- es existiert eine Normalleiter-Bereich, mitt Flussquant $\Phi$
+
+## Ph&auml;nomenologische Beschreibung
 
 # Halbleiter
 
