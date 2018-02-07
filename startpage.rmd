@@ -3,16 +3,12 @@ title: "Web Start"
 output: 
     flexdashboard::flex_dashboard:
         theme: yeti
+        css: styles.css
         navbar:
             - { title: "PEP5", href: "./WiSe1718/Ex5.html", align: right }
+            - { title: "ITI", href: "../../gitlab/ITI-WS1718/main.html", align: right }
 ---
 
-<style type="text/css">
-    body{
-        font-size: 16px;
-        background-color: #008cba;
-    }
-</style>
 
 ```{r setup, include=FALSE}
   htmltools::tagList(rmarkdown::html_dependency_font_awesome())
@@ -39,9 +35,12 @@ Row
 - [Daniel Barley](https://github.com/danielbarley)
 
 
-### <i class="fa fa-gitlab" aria-hidden="true"></i> Gitlab {data-height=50%}
+### <i class="fab fa-gitlab"></i> Gitlab
 
 - [acereca](http://acereca.ddns.net:9443)
+  - [InternReport](http://acereca.ddns.net:9443/acereca/InternReport)
+  - [DnDHomebrew](http://acereca.ddns.net:9443/acereca/DnDHomebrew)
+  - [CV](http://acereca.ddns.net:9443/acereca/CV)
 
 Row
 ----------------------------------------------------------------
@@ -58,12 +57,3 @@ Row
 - [Visionary Project Management](https://brainscales-r.kip.uni-heidelberg.de/login)
 - [Visionary Code Review](https://brainscales-r.kip.uni-heidelberg.de:9443/#/dashboard/self)
 - [Visionary ChatViz](https://brainscales-r.kip.uni-heidelberg.de:6443)
-
-### <i class="fa fa-pencil-square-o"></i> Einf&uuml;hrung in die technische Informatik
-
-- [Vortragsnotizen](http://acereca.ddns.net/iti/index.html)
-
-### Experimentalphysik V 
-
-- [Homepage](https://uebungen.physik.uni-heidelberg.de/vorlesung/20172/pep5)
-

@@ -1,0 +1,27 @@
+body {
+    font-size: 16px;
+    background-color: #222e3a;
+    font-family: Droid Sans Mono;
+}
+
+a {
+    color: #268bd2;
+}
+
+.navbar {
+    background-color: #222e3a;
+}
+
+.section {
+    border-color: #444;
+    color: #fff;
+}
+
+.section > .chart-title {
+    border-color: inherit;
+    color: inherit;
+}
+
+.chart-wrapper, .nav-tabs-custom, .sbframe-commentary {
+    background: #121e2a;
+}
