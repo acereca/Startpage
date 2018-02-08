@@ -2,6 +2,7 @@
 title: "Web Start"
 output: 
     flexdashboard::flex_dashboard:
+        smart: false
         theme: yeti
         css: styles.css
         navbar:
@@ -46,6 +47,10 @@ Row
 
 Row
 ----------------------------------------------------------------
+
+### TODOs
+
+<object src="../../todo.md"></object>
 
 ### <i class="fa fa-university"></i> Studium
 

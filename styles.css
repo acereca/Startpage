@@ -25,3 +25,8 @@ a {
 .chart-wrapper, .nav-tabs-custom, .sbframe-commentary {
     background: #121e2a;
 }
+
+iframe {
+    border: 0px;
+    color: #fff;
+}
