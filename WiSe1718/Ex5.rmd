@@ -394,7 +394,23 @@ unter der N&auml;herung $\omega = vq$ (Debye)
 - es existiert eine Normalleiter-Bereich, mitt Flussquant $\phi_0$
 
 ## Ph&auml;nomenologische Beschreibung
+- ideale Leitf&aum;higkeit: $m\dot{\vec v} + \frac m\tau\vec v = -q\vec E(x)$
+- idealer Diamagnet: $\chi = -1$
+- zwei Fl&uuml;ssigkeiten Modell: $n=n_{SL}+n_{NL}$
 
+> 1. Londonsche Gleichung:
+>
+> \begin{align}
+    d_t(\vec j) =& n_{SL}q_{SL}\dot{\vec v} =& \frac{n_{SL}q_{SL}^2}{m_{SL}}\vec E
+\end{align}
+
+- $\rightarrow$ London: $E^{-1}\propto \dot n$
+
+> 2. Londonsche Gleichung
+>
+> \begin{align}
+    rot(\vec j) = - \frac{n_{SL}q_{SL}^2}{m_{SL}}\vec B
+\end{align}
 
 # Halbleiter
 
