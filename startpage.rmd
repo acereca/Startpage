@@ -6,6 +6,7 @@ output:
         theme: yeti
         css: styles.css
         navbar:
+            - { title: "WiSe1718", align: right, href: ''}
             - { title: "PEP5", href: "./WiSe1718/Ex5.html", align: right }
             - { title: "ITI", href: "../../gitlab/ITI-WS1718/main.html", align: right }
 ---
@@ -24,6 +25,7 @@ Row
 
 ### General
 
+- [RMd](http://rmarkdown.rstudio.com/lesson-1.html)
 
 ### <i class="fa fa-github"></i> Github
 
